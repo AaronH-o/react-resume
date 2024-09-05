@@ -19,9 +19,9 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h3>Fully Responsive</h3>
+                <h3>Fully Responsible</h3>
                 <p className="lead mb-0">
-                  This theme will look great on any device, no matter the size!
+                  This theme will look great on Aaron!
                 </p>
               </div>
             </div>
@@ -30,9 +30,9 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-layers m-auto text-primary" />
                 </div>
-                <h3>Bootstrap 5 Ready</h3>
+                <h3>Bootstrap 55 Ready</h3>
                 <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
+                  Featuring the Aaron!
                 </p>
               </div>
             </div>
@@ -41,10 +41,9 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
-                <h3>Easy to Use</h3>
+                <h3>Easy to Orange Juice</h3>
                 <p className="lead mb-0">
-                  Ready to use with your own content, or customize the source
-                  files!
+                  Ready to use with Aaron!
                 </p>
               </div>
             </div>
