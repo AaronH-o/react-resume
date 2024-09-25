@@ -1,4 +1,5 @@
 import Logo from '../../assets/heart.svg';
+import Resume from '../../assets/Aaron_Ho_Resume.pdf';
 
 export default function Nav({ links }) {
   return (

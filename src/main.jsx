@@ -26,10 +26,6 @@ const router = createBrowserRouter([
         path: 'experience',
         element: <ExperiencePage />,
       },
-      {
-        path: 'resume',
-        element: <ExperiencePage />,
-      },
     ],
   },
 ]);
