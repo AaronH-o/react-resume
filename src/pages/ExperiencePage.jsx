@@ -34,7 +34,7 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
-                <h3>Easy to Orange Juice</h3>
+                <h3>Easy to Juice</h3>
                 <p className="lead mb-0">
                   Ready to use with Aaron!
                 </p>
@@ -44,7 +44,7 @@ export default function AboutPage() {
         </div>
       </section>
       <p>
-        not that much experience :( but I own a dog!
+        not that much experience :( but I have a dog!
       </p>
     </div>
   );
