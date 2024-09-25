@@ -46,6 +46,11 @@ export default function AboutPage() {
       <p>
         not that much experience :( but I have a dog!
       </p>
+      <section className="features-icons bg-light text-center m-4">
+          <div className="container">
+            <h3>test</h3>
+          </div>
+      </section>
     </div>
   );
 }
