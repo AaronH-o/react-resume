@@ -82,6 +82,19 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
+          </div><div className="row p-2">
+            <div className="col-lg-3">
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                  <h5 className="align-self-end">Frameworks/Tools</h5>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
