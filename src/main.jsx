@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-import ExperiencePage from './pages/ExperiencePage';
+import ProjectPage from './pages/ProjectPage';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'experience',
-        element: <ExperiencePage />,
+        path: 'project',
+        element: <ProjectPage />,
       },
     ],
   },

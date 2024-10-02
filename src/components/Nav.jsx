@@ -11,8 +11,8 @@ export default function Nav() {
         <Link key={1} className="nav-link text-light" to="/">
           About
         </Link>,
-        <Link key={2} className="nav-link text-light" to="/experience">
-          Experience
+        <Link key={2} className="nav-link text-light" to="/project">
+          Projects
         </Link>,
         // TODO: change to button and add styling for tooltip on the bottom
         <a key={3} className="nav-link text-light" href={Resume}>
