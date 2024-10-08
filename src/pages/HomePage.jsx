@@ -5,8 +5,8 @@ export default function HomePage() {
   
   return (
     <div className="container pt-4">
-      <a className="display-5">This is my home! my name is Aaron</a>
       <section className="features-icons bg-light text-center m-4">
+        {/* Education */}
         <div className="container education-container">
           <div className="row p-2">
             <div className="col-lg-3">
@@ -62,6 +62,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        {/* Skills */}
         <div className="container skills-container">
           <div className="row p-2">
             <div className="col-lg-3">
@@ -79,6 +80,7 @@ export default function HomePage() {
                 </div>
                 <p className="d-flex flex-column lead mb-0">
                   <h5 className="align-self-end">Programming Languages</h5>
+                  <p className="align-self-end"><small>JavaScript, TypeScript, HTML/CSS, Java, C/C++, Python, R</small></p>
                 </p>
               </div>
             </div>
@@ -92,7 +94,72 @@ export default function HomePage() {
                 </div>
                 <p className="d-flex flex-column lead mb-0">
                   <h5 className="align-self-end">Frameworks/Tools</h5>
+                  <p className="align-self-end"><small>React, Node.js, Express.js, Linux, Docker, SQL, MongoDB, AWS</small></p>
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Experience */}
+        <div className="container experience-container">
+          <div className="row p-2">
+            <div className="col-lg-3">
+              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h2>Professional Experience</h2>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                <h5 className="align-self-end">The Arc of the East Bay <small className="text-muted">- San Leandro, CA</small></h5>
+                  <p className="align-self-end"><small>IT Administrator</small></p>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="d-flex features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h5><small className="text-muted">August 2019 - August 2020</small></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Projects */}
+        <div className="container projects-container">
+          <div className="row p-2">
+            <div className="col-lg-3">
+              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                  <h5 className="align-self-end">Project 1</h5>
+                  <p className="align-self-end"><small>Project Description</small></p>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="d-flex features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h5><small className="text-muted">Date</small></h5>
               </div>
             </div>
           </div>
