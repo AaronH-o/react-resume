@@ -13,6 +13,7 @@ export default function Nav({ links }) {
             {links.map((link) => link)}
           </ul>
         </div>
+        <div> Aaron Ho </div>
       </div>
     </nav>
   );
