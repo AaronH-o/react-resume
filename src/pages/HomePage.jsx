@@ -149,7 +149,10 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">Vibe Check</h5>
+                  {/* TODO: open modal on click with screenshots of project and link to the repository*/}
+                  <Link to="https://github.com/AaronH-o/Vibe_Check" className="align-self-end" target="_blank" rel="noopener noreferrer">
+                    <h5 className="align-self-end">Vibe Check</h5>
+                  </Link>
                   <p className="align-self-end text-end"><small>A fullstack web application built with Node.js, Express, MySQL, and Handlebars that allows users to create and save custom playlists from a provided list of songs. User authentication is required to access and manage playlists.</small></p>
                 </p>
               </div>
@@ -172,7 +175,9 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">Social Network API</h5>
+                  <Link to="https://github.com/AaronH-o/social-network-api" className="align-self-end" target="_blank" rel="noopener noreferrer">
+                    <h5 className="align-self-end">Social Network API</h5>
+                  </Link>
                   <p className="align-self-end text-end"><small>A Social Network API that provides endpoints for managing users, thoughts, reactions, and user friendships. It offers a backend system for developers to build social networking applications and models to a MongoDB database.</small></p>
                 </p>
               </div>
