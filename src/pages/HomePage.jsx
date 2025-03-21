@@ -6,6 +6,44 @@ export default function HomePage() {
   return (
     <div className="container pt-4">
       <section className="features-icons bg-light text-center m-4">
+        {/* Skills */}
+        <div className="container skills-container">
+          <div className="row p-2">
+            <div className="col-lg-3">
+              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h2>Skills</h2>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                  <h5 className="align-self-end">Programming Languages</h5>
+                  <p className="align-self-end"><small>JavaScript, TypeScript, HTML/CSS, Java, C/C++, Python, R</small></p>
+                </p>
+              </div>
+            </div>
+          </div><div className="row p-2">
+            <div className="col-lg-3">
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                  <h5 className="align-self-end">Frameworks/Tools</h5>
+                  <p className="align-self-end"><small>React, Node.js, Express.js, Linux, Docker, SQL, MongoDB, AWS</small></p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Education */}
         <div className="container education-container">
           <div className="row p-2">
@@ -62,44 +100,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        {/* Skills */}
-        <div className="container skills-container">
-          <div className="row p-2">
-            <div className="col-lg-3">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-window m-auto text-primary" />
-                </div>
-                <h2>Skills</h2>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-terminal m-auto text-primary" />
-                </div>
-                <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">Programming Languages</h5>
-                  <p className="align-self-end"><small>JavaScript, TypeScript, HTML/CSS, Java, C/C++, Python, R</small></p>
-                </p>
-              </div>
-            </div>
-          </div><div className="row p-2">
-            <div className="col-lg-3">
-            </div>
-            <div className="col-lg-6">
-              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-terminal m-auto text-primary" />
-                </div>
-                <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">Frameworks/Tools</h5>
-                  <p className="align-self-end"><small>React, Node.js, Express.js, Linux, Docker, SQL, MongoDB, AWS</small></p>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* Experience */}
         <div className="container experience-container">
           <div className="row p-2">
@@ -149,8 +149,8 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">Project 1</h5>
-                  <p className="align-self-end"><small>Project Description</small></p>
+                  <h5 className="align-self-end">Vibe Check</h5>
+                  <p className="align-self-end text-end"><small>A fullstack web application built with Node.js, Express, MySQL, and Handlebars that allows users to create and save custom playlists from a provided list of songs. User authentication is required to access and manage playlists.</small></p>
                 </p>
               </div>
             </div>
@@ -159,7 +159,30 @@ export default function HomePage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h5><small className="text-muted">Date</small></h5>
+                <h5><small className="text-muted">April 2024</small></h5>
+              </div>
+            </div>
+          </div>
+          <div className="row p-2">
+            <div className="col-lg-3">
+            </div>
+            <div className="col-lg-6">
+              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-terminal m-auto text-primary" />
+                </div>
+                <p className="d-flex flex-column lead mb-0">
+                  <h5 className="align-self-end">Social Network API</h5>
+                  <p className="align-self-end text-end"><small>A Social Network API that provides endpoints for managing users, thoughts, reactions, and user friendships. It offers a backend system for developers to build social networking applications and models to a MongoDB database.</small></p>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="d-flex features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div className="features-icons-icon d-flex">
+                  <i className="bi-window m-auto text-primary" />
+                </div>
+                <h5><small className="text-muted">June 2024</small></h5>
               </div>
             </div>
           </div>
