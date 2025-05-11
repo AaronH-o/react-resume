@@ -149,7 +149,10 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  {/* TODO: open modal on click with screenshots of project and link to the repository*/}
+                  {/* 
+                    TODO: open modal on click with screenshots of project and link to the repository
+                    Also look at offcanvas component with bottom placement
+                  */}
                   <Link to="https://github.com/AaronH-o/Vibe_Check" className="align-self-end" target="_blank" rel="noopener noreferrer">
                     <h5 className="align-self-end">Vibe Check</h5>
                   </Link>
