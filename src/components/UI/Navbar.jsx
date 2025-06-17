@@ -19,7 +19,7 @@ export default function Nav({ links }) {
         <Button className="d-flex mx-4 gap-2" variant="outline-light" size="sm">
           <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">Resume</Link>
         </Button>
-        <div> Aaron Ho </div>
+        <div className="text-light"> Aaron Ho </div>
       </div>
     </nav>
   );
