@@ -13,11 +13,12 @@ export default function Nav({ links }) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {links.map((link) => link)}
-            <Button className="d-flex gap-2" variant="outline-light" size="sm">
-              <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">Resume</Link>
-            </Button> 
           </ul>
         </div>
+        {/* TODO: add icons for socials (linkedin / github) */}
+        <Button className="d-flex mx-4 gap-2" variant="outline-light" size="sm">
+          <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">Resume</Link>
+        </Button>
         <div> Aaron Ho </div>
       </div>
     </nav>

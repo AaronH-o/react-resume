@@ -17,9 +17,9 @@ export default function Nav() {
             Projects
           </Link>,
           // TODO: change to button and add styling for tooltip on the bottom
-          <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">
-            Resume
-          </Link>,
+          // <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">
+          //   Resume
+          // </Link>,
         ]}
       />
     </>
