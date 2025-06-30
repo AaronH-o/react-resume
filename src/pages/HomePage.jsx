@@ -1,7 +1,19 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 
 export default function HomePage() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleOpen = () => {
+    setOpen(true);
+  }
   
   return (
     <div className="container pt-4">
@@ -71,7 +83,7 @@ export default function HomePage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h5><small className="text-muted">December 2023 - June 2024</small></h5>
+                <h5><small className="text-muted">June 2024</small></h5>
               </div>
             </div>
           </div>
@@ -95,7 +107,7 @@ export default function HomePage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h5><small className="text-muted">August 2018 - May 2022</small></h5>
+                <h5><small className="text-muted">May 2022</small></h5>
               </div>
             </div>
           </div>
@@ -153,6 +165,23 @@ export default function HomePage() {
                     TODO: open modal on click with screenshots of project and link to the repository
                     Also look at offcanvas component with bottom placement
                   */}
+                  <Button type="button" onClick={handleOpen}>
+                    open
+                  </Button>
+                  <Modal show={open} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Modal heading</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onClick={handleClose}>
+                        Close
+                      </Button>
+                      <Button variant="primary" onClick={handleClose}>
+                        Save Changes
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
                   <Link to="https://github.com/AaronH-o/Vibe_Check" className="align-self-end" target="_blank" rel="noopener noreferrer">
                     <h5 className="align-self-end">Vibe Check</h5>
                   </Link>
