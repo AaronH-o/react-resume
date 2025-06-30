@@ -165,7 +165,7 @@ export default function HomePage() {
                     TODO: open modal on click with screenshots of project and link to the repository
                     Also look at offcanvas component with bottom placement
                   */}
-                  <h5 className="align-self-end" type="button" onClick={handleOpen}>
+                  <h5 className="align-self-end text-primary" type="button" onClick={handleOpen}>
                     Vibe Check
                   </h5>
                   <Modal show={open} onHide={handleClose}>
@@ -201,7 +201,7 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end" type="button" onClick={handleOpen}>
+                  <h5 className="align-self-end text-primary" type="button" onClick={handleOpen}>
                     Social Network API
                   </h5>
                   <Modal show={open} onHide={handleClose}>
