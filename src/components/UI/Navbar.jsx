@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons'
 import Logo from '../../assets/heart.svg';
 import Button from 'react-bootstrap/Button';
 import Resume from '../../assets/Aaron_Ho_Resume.pdf';
@@ -16,6 +17,8 @@ export default function Nav({ links }) {
           </ul>
         </div>
         {/* TODO: add icons for socials (linkedin / github) */}
+        <SocialIcon network="github" fgColor="white" bgColor= "none" target="_blank" url="https://github.com/AaronH-o/"/>
+        <SocialIcon network="linkedin" fgColor="white" bgColor= "none" target="_blank" url="https://www.linkedin.com/in/aaron-ho-7305332a3/"/>
         <Button className="d-flex mx-4 gap-2" variant="outline-light" size="sm">
           <Link key={3} className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">Resume</Link>
         </Button>
