@@ -93,12 +93,6 @@ button:focus-visible {
 /* Override Bootstrap bg-light and section backgrounds */
 .dark-mode .bg-light,
 .dark-mode section,
-.dark-mode .features-icons,
-.dark-mode .features-icons-item,
-.dark-mode .skills-container,
-.dark-mode .education-container,
-.dark-mode .experience-container,
-.dark-mode .projects-container,
 .dark-mode .container,
 .dark-mode .container-fluid {
   background-color: #1e1e1e !important;
@@ -120,6 +114,15 @@ button:focus-visible {
   color: #cccccc !important;
 }
 
+.dark-mode .features-icons,
+.dark-mode .features-icons-item,
+.dark-mode .skills-container,
+.dark-mode .education-container,
+.dark-mode .experience-container,
+.dark-mode .projects-container {
+  background-color: #484848 !important;
+}
+
 /* Links */
 .dark-mode a {
   color: #9ecbff !important;
@@ -139,7 +142,7 @@ button:focus-visible {
 
 /* Dark mode for project cards */
 .dark-mode .features-icons-item {
-  background-color: #1e1e1e !important;
+  background-color: #484848 !important;
   color: #e4e4e4 !important;
   border-color: #333 !important;
 }
@@ -149,10 +152,6 @@ button:focus-visible {
 .dark-mode .features-icons-item small,
 .dark-mode .features-icons-item p {
   color: #e4e4e4 !important;
-}
-
-.dark-mode .features-icons-item {
-  background-color: #1e1e1e !important;
 }
 
 .dark-mode .projects-container h5 {
