@@ -21,7 +21,7 @@ export default function Nav({ links }) {
   }, [darkMode]);
 
   return (
-    <nav className={`navbar navbar-expand-lg ${darkMode ? "bg-dark" : "bg-secondary"}`}>
+    <nav className={`navbar navbar-expand-lg ${darkMode ? "bg-dark" : "bg-secondary"} sticky-top`}>
       <div className="container-fluid">
 
         {/* Logo */}
