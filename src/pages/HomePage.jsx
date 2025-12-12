@@ -5,7 +5,11 @@ import Button from 'react-bootstrap/Button';
 
 
 export default function HomePage() {
-  const [open, setOpen] = React.useState(false);
+  const [modalData, setModalData] = React.useState(null);
+
+  const openModal = (data) => setModalData(data);
+  const closeModal = () => setModalData(null);
+
 
   const handleClose = () => {
     setOpen(false);
@@ -165,20 +169,26 @@ export default function HomePage() {
                     TODO: open modal on click with screenshots of project and link to the repository
                     Also look at offcanvas component with bottom placement
                   */}
-                  <h5 className="align-self-end text-primary" type="button" onClick={handleOpen}>
+                  <h5 className="align-self-end text-primary" type="button" onClick={() => openModal({
+                    title: "Vibe Check",
+                    link: "https://github.com/AaronH-o/Vibe_Check",
+                    body: "Things used: ..."
+                  })}>
                     Vibe Check
                   </h5>
-                  <Modal show={open} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                      <Modal.Title>Vibe Check</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>Things used: </Modal.Body>
-                    <Modal.Footer>
-                      <Link to="https://github.com/AaronH-o/Vibe_Check" className="align-self-end" target="_blank" rel="noopener noreferrer">
-                        <h5 className="align-self-end">GitHub</h5>
-                      </Link>
-                    </Modal.Footer>
-                  </Modal>
+                  {modalData && (
+                    <Modal show onHide={closeModal}>
+                      <Modal.Header closeButton>
+                        <Modal.Title>{modalData.title}</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body>{modalData.body}</Modal.Body>
+                      <Modal.Footer>
+                        <Link to={modalData.link} target="_blank" rel="noopener noreferrer">
+                          <h5>GitHub</h5>
+                        </Link>
+                      </Modal.Footer>
+                    </Modal>
+                  )}
                   <p className="align-self-end text-end"><small>A fullstack web application built with Node.js, Express, MySQL, and Handlebars that allows users to create and save custom playlists from a provided list of songs. User authentication is required to access and manage playlists.</small></p>
                 </p>
               </div>
@@ -201,20 +211,26 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end text-primary" type="button" onClick={handleOpen}>
+                  <h5 className="align-self-end text-primary" type="button" onClick={() => openModal({
+                    title: "Social Network API",
+                    link: "https://github.com/AaronH-o/social-network-api",
+                    body: "Things used: ..."
+                  })}>
                     Social Network API
                   </h5>
-                  <Modal show={open} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                      <Modal.Title>Social Network API</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>Things used: </Modal.Body>
-                    <Modal.Footer>
-                      <Link to="https://github.com/AaronH-o/social-network-api" className="align-self-end" target="_blank" rel="noopener noreferrer">
-                        <h5 className="align-self-end">GitHub</h5>
-                      </Link>
-                    </Modal.Footer>
-                  </Modal>
+                  {modalData && (
+                    <Modal show onHide={closeModal}>
+                      <Modal.Header closeButton>
+                        <Modal.Title>{modalData.title}</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body>{modalData.body}</Modal.Body>
+                      <Modal.Footer>
+                        <Link to={modalData.link} target="_blank" rel="noopener noreferrer">
+                          <h5>GitHub</h5>
+                        </Link>
+                      </Modal.Footer>
+                    </Modal>
+                  )}
                   <p className="align-self-end text-end"><small>A Social Network API that provides endpoints for managing users, thoughts, reactions, and user friendships. It offers a backend system for developers to build social networking applications and models to a MongoDB database.</small></p>
                 </p>
               </div>
