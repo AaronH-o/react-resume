@@ -90,7 +90,7 @@ export default function ProjectPage() {
   ];
 
   return (
-    <div className="container pt-4">
+    <div className="container projects-page pt-4">
 
       {/* PAGE HEADER */}
       <div className="mb-5 text-center">
