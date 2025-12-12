@@ -40,3 +40,70 @@
 .read-the-docs {
   color: #888;
 }
+
+.btn i {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* GLOBAL DARK MODE */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #e4e4e4 !important;
+}
+
+/* Make all containers dark */
+.dark-mode .container,
+.dark-mode .container-fluid,
+.dark-mode section,
+.dark-mode .features-icons {
+  background-color: #121212 !important;
+  color: #e4e4e4 !important;
+}
+
+/* Cards, feature blocks, and content boxes */
+.dark-mode .card,
+.dark-mode .features-icons-item,
+.dark-mode .projects-container,
+.dark-mode .skills-container,
+.dark-mode .education-container,
+.dark-mode .experience-container {
+  background-color: #1e1e1e !important;
+  color: #e4e4e4 !important;
+  border-color: #333 !important;
+}
+
+/* Headings */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #ffffff !important;
+}
+
+/* Small text */
+.dark-mode small {
+  color: #cccccc !important;
+}
+
+/* Links */
+.dark-mode a {
+  color: #9ecbff !important;
+}
+
+/* Social icons */
+.dark-mode .social-icon {
+  filter: brightness(0.8);
+}
+
+/* Modal styling */
+.dark-mode .modal-content {
+  background-color: #1e1e1e !important;
+  color: #e4e4e4 !important;
+}
+
+.dark-mode .modal-header,
+.dark-mode .modal-footer {
+  border-color: #333 !important;
+}
