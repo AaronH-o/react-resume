@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="footer bg-light text-dark py-4 mt-5 border-top">
+    <footer className="footer bg-light text-dark py-4 mt-5 ">
       <div className="container text-center">
         <p className="mb-2">
           © {new Date().getFullYear()} Aaron Ho · Built with React

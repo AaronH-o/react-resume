@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <div className="container pt-4">
       <AboutSection />
-      <hr />
       <section className="features-icons bg-light text-center m-4">
         <SkillsSection />
         <hr />
