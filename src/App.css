@@ -71,7 +71,6 @@
 .dark-mode h2,
 .dark-mode h3,
 .dark-mode h4,
-.dark-mode h5,
 .dark-mode h6 {
   color: #ffffff !important;
 }
@@ -114,3 +113,8 @@
 .dark-mode .features-icons-item {
   background-color: #1e1e1e !important;
 }
+
+.dark-mode .projects-container h5 {
+  color: #9ecbff !important;
+}
+

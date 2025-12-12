@@ -14,7 +14,7 @@ export default function ProjectsSection() {
         <div className="col-12 col-md-4">
           <div className="features-icons-item">
             <i className="bi-window m-auto text-primary" />
-            <h2>Projects</h2>
+            <h2>Select Projects</h2>
           </div>
         </div>
 
