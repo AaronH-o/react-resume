@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className="container pt-4">
       <AboutSection />
-      <section className="features-icons bg-light text-center m-4">
+      <section className="features-icons bg-light text-center m-4 py-5">
         <SkillsSection />
         <hr />
         <EducationSection />
