@@ -22,7 +22,7 @@ export default function Nav({ links }) {
 
   return (
     <nav className={`navbar navbar-expand-lg ${darkMode ? "bg-dark" : "bg-secondary"} sticky-top container-fluid`}>
-
+      <div className="container-fluid px-0 mx-3">
       {/* Logo */}
       <Link to="/">
         <img
@@ -73,6 +73,7 @@ export default function Nav({ links }) {
       </button>
 
       <div className="text-light ms-3"> Aaron Ho </div>
+      </div>
     </nav>
   );
 }
