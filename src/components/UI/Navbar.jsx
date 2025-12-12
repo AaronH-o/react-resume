@@ -67,7 +67,7 @@ export default function Nav({ links }) {
           onClick={() => setDarkMode(!darkMode)}
         >
           {darkMode ? (
-            <i className="bi bi-sun-fill text-warning fs-5"></i>
+            <i className="bi bi-sun-fill fs-5"></i>
           ) : (
             <i className="bi bi-moon-fill text-light fs-5"></i>
           )}
