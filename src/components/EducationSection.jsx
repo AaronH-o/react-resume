@@ -13,7 +13,7 @@ export default function EducationSection() {
 
         <div className="col-12 col-md-8">
           <div className="features-icons-item">
-            <i className="bi-terminal m-auto text-primary" />
+            <i className="m-auto text-primary" />
             <div className="lead">
               <h5>
                 University of California <small className="text-muted">— Berkeley, CA</small>
@@ -31,7 +31,7 @@ export default function EducationSection() {
       <div className="row g-4 mt-3">
         <div className="col-12 col-md-8 offset-md-4">
           <div className="features-icons-item">
-            <i className="bi-terminal m-auto text-primary" />
+            <i className="m-auto text-primary" />
             <div className="lead">
               <h5>
                 Laney College <small className="text-muted">— Oakland, CA</small>

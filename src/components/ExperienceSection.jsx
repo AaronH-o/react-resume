@@ -13,7 +13,7 @@ export default function ExperienceSection() {
 
         <div className="col-12 col-md-8">
           <div className="features-icons-item">
-            <i className="bi-terminal m-auto text-primary" />
+            <i className="m-auto text-primary" />
             <div className="lead">
               <h5>
                 The Arc of the East Bay <small className="text-muted">— San Leandro, CA</small>

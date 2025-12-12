@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       <div className="row g-4">
         <div className="col-12 col-md-4">
           <div className="features-icons-item">
-            <i className="bi-window m-auto text-primary" />
+            <i className="bi-terminal m-auto text-primary" />
             <h2>Select Projects</h2>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function ProjectsSection() {
         {/* Vibe Check */}
         <div className="col-12 col-md-8">
           <div className="features-icons-item">
-            <i className="bi-terminal m-auto text-primary" />
+            <i className="m-auto text-primary" />
             <div className="lead">
               <h5
                 className="text-primary"
@@ -46,7 +46,7 @@ export default function ProjectsSection() {
         {/* Social Network API */}
         <div className="col-12 col-md-8 offset-md-4">
           <div className="features-icons-item">
-            <i className="bi-terminal m-auto text-primary" />
+            <i className="m-auto text-primary" />
             <div className="lead">
               <h5
                 className="text-primary"
