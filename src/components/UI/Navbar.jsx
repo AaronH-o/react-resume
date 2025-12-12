@@ -47,11 +47,18 @@ export default function Nav({ links }) {
         <SocialIcon network="linkedin" fgColor="white" bgColor="none" target="_blank" url="https://www.linkedin.com/in/aaron-ho-7305332a3/" />
 
         {/* Resume Button */}
-        <Button className="d-flex mx-4 gap-2" variant="outline-light" size="sm">
-          <Link className="nav-link text-light" to={Resume} target="_blank" rel="noopener noreferrer">
-            Resume
-          </Link>
+        <Button
+          as={Link}
+          to={Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="outline-light"
+          size="sm"
+          className="d-flex mx-4 gap-2"
+        >
+          Resume
         </Button>
+
 
         {/* Dark Mode Toggle */}
         <button
