@@ -73,8 +73,8 @@ export default function HomePage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <p className="d-flex flex-column lead mb-0">
-                  <h5 className="align-self-end">University of California Extension <small className="text-muted">- Berkeley, CA</small></h5>
-                  <p className="align-self-end"><small>Full Stack Web Development Bootcamp</small></p>
+                  <h5 className="align-self-end">University of California <small className="text-muted">- Berkeley, CA</small></h5>
+                  <p className="align-self-end"><small>Full Stack Web Development Certificate</small></p>
                 </p>
               </div>
             </div>
