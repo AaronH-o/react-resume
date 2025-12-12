@@ -81,11 +81,9 @@ export default function ProjectPage() {
         "Node.js",
         "Express",
         "MongoDB",
-        "Mongoose",
         "GraphQL",
         "Apollo Server",
         "JWT Authentication",
-        "Google Books API",
       ],
       repo: "https://github.com/AaronH-o/book-search-engine"
     }
@@ -97,7 +95,7 @@ export default function ProjectPage() {
       {/* PAGE HEADER */}
       <div className="mb-5 text-center">
         <h1 className="text-primary fw-bold">Projects</h1>
-        <p className="lead text-muted">
+        <p>
           A collection of full‑stack, backend, and API‑driven applications I've built using modern web technologies.
         </p>
       </div>
