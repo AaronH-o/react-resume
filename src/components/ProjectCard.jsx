@@ -2,7 +2,7 @@ export default function ProjectCard({ title, description, stack, repo }) {
   return (
     <div className="card shadow-sm mb-4 p-3">
       <h3 className="text-primary">{title}</h3>
-      <p className="text-muted">{description}</p>
+      <p>{description}</p>
 
       <ul>
         {stack.map((item, index) => (
