@@ -86,7 +86,7 @@ export default function ProjectPage() {
         "JWT Authentication",
       ],
       repo: "https://github.com/AaronH-o/book-search-engine"
-    }
+    },
   ];
 
   return (
